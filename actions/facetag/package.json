@@ -1,0 +1,11 @@
+{
+  "name": "face-tagging",
+  "version": "1.0.0",
+  "description": "An action written as an npm package.",
+  "main": "index.js",
+  "author": "sadekj",
+  "license": "lic1",
+  "dependencies": {
+    "jimp": "^0.2.27"
+  }
+}

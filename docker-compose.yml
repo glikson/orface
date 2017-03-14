@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+    node-red:
+        image: nodered/node-red-docker
+        user: root
+        ports:
+            - 8080:1880
+        volumes:
+            - /home/glikson/orface/data:/data
+            - /home/glikson/orface/images:/root/images
+            - /var/run/docker.sock:/var/run/docker.sock
+            - /etc/timezone:/etc/timezone
+        environment:
+            - OW_AUTH_KEY
+

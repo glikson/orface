@@ -1,0 +1,8 @@
+{
+  "name": "face-detection",
+  "version": "1.0.0",
+  "description": "An action written as an npm package.",
+  "main": "index.js",
+  "author": "sadekj",
+  "license": "lic1"
+}

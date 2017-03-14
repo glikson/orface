@@ -1,0 +1,10 @@
+{
+  "name": "node-red-data",
+  "version": "1.0.0",
+  "description": "node-red data folder",
+  "dependencies": {
+    "elliot-openwhisk-local":"kpavel/elliot-openwhisk-local",
+    "node-red-dashboard": "*",
+    "node-red-node-base64": "*"
+  }
+}
