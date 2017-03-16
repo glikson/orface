@@ -21,7 +21,6 @@ function detect(args){
           face = detected_faces[i];
           x_m = Math.round(margin * face.width);
           y_m = Math.round(margin * face.height);
-          //TODO: take care of negative and rounding issues... 
           face_x = face.x - x_m;
           if(face_x<0) face_x=0;
           face_y = face.y - y_m;
